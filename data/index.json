@@ -1,0 +1,25 @@
+{
+ "meta": {
+  "name": "重庆中小学教材版本数据",
+  "updated": "2026-11-19",
+  "school_term": "2026 年秋季",
+  "schools": 3165,
+  "districts": 38,
+  "coverage": {
+   "official_districts": 34,
+   "inferred_districts": [
+    "万州区",
+    "南川区",
+    "秀山土家族苗族自治县",
+    "黔江区"
+   ]
+  },
+  "usage": "school -> district -> districts[district][stage][subject]",
+  "license": "数据来自重庆市各区县教委公开公示文件，仅供查询参考"
+ },
+ "files": {
+  "schools": "schools.json",
+  "schools_lite": "schools-lite.json",
+  "districts_dir": "districts/"
+ }
+}
